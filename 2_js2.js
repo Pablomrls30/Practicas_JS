@@ -22,6 +22,7 @@ console.log(equipos);
 console.log('último', equipos.pop());
 console.log(equipos)
 
+
 /* Definir un objeto */
 let materias = ['Web','Conta','Costos'];
 let grupo52 = {
@@ -43,6 +44,7 @@ console.log('Primera materia: ',
 
 grupo52.facultad = 'facpya';
 console.log(grupo52);
+
 
 /* let carrera = prompt('¿Cuál es tu carrera?'); */
 
@@ -79,28 +81,4 @@ switch(num){
         console.log('Cuatro')
     case 5:
         console.log('Error')
-}
-
-/* Ciclos */
-for(let i=1; i<=100; i++){
-    let codigo = "<marquee>" + i + "</marquee>";
-    document.write(codigo);
-}
-
-for(let i=1; i<=100; i--){
-    document.write(i + '<br>');
-}
-
-/* Escribir un programa en javascript que permita calcular el total a pagar de un empleado
-Solicitar el número de horas trabajdas y el pago por hora. Pagar las horas extra al triple. Se consideran
-las primeras 40 hrs como normales */
-
-let num_horas = promt('¿Cuántas horas trabajas?');
-let pago_x_hora = 15.20
-let horas_extra = (num_horas - 40)
-if (num_horas < 40){
-    console.log(num_horas * pago_x_hora)
-}
-else{
-    console.log(num_horas * pago_x_hora) + (horas_extra * (pago_x_hora*3))
 }
