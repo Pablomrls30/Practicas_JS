@@ -1,6 +1,6 @@
-/* Práctica de Medicamentos*/
+/* Práctica de Medicamentos (Se ejecuta en el Documento)*/
 let hora = 1
-let fr = 7
+let fr = 5
 for(let x = 1; x<=fr; ++x){
   document.write(`Toma #${x}: ${hora}`)
   hora += fr
@@ -11,7 +11,8 @@ for(let x = 1; x<=fr; ++x){
   
 }
 
-/* Práctica números perfectos*/
+
+/* Práctica números perfectos (Se ejecuta en la consola)*/
 let numero = 7
 let suma = 0
 for(let i = 1; i<=numero / 2; ++i){
